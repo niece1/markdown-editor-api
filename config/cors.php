@@ -19,6 +19,9 @@ return [
         'api/*',
         'sanctum/csrf-cookie',
         'login',
+        'logout',
+        'register',
+        'user/profile-information',
     ],
 
     'allowed_methods' => ['*'],
