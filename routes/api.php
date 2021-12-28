@@ -20,3 +20,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::middleware(['auth:sanctum', 'verified'])->get('/admin', function (Request $request) {
     return response()->json([]);
 });
+Route::middleware('auth:sanctum', 'password.confirm')->delete('/user', function (Request $request) {
+    return $request->user()->delete();
+});

@@ -25,6 +25,7 @@ return [
         'email/verification-notification',
         'reset-password',
         'forgot-password',
+        'user/confirm-password',
     ],
 
     'allowed_methods' => ['*'],
