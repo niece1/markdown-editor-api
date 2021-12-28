@@ -26,6 +26,10 @@ return [
         'reset-password',
         'forgot-password',
         'user/confirm-password',
+        'user/two-factor-authentication',
+        'user/two-factor-recovery-codes',
+        'user/two-factor-qr-code',
+        'two-factor-challenge',
     ],
 
     'allowed_methods' => ['*'],

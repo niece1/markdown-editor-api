@@ -138,6 +138,7 @@ return [
         Features::updateProfileInformation(),
         Features::updatePasswords(),
         Features::twoFactorAuthentication([
+            //whether ask password while deleting account and two factor auth
             'confirmPassword' => true,
         ]),
     ],
