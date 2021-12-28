@@ -23,6 +23,8 @@ return [
         'register',
         'user/profile-information',
         'email/verification-notification',
+        'reset-password',
+        'forgot-password',
     ],
 
     'allowed_methods' => ['*'],
